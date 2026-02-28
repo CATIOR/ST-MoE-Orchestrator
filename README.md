@@ -1,6 +1,6 @@
 # MoE Orchestrator — SillyTavern Extension
 
-**Mixture of Experts for your group chats.** Get two (or more) AI drafts, then let an Orchestrator character merge them into one polished response.
+**Mixture of Experts for your group chats.** Get two (or more) AI drafts (posts from different characters!), then let an Orchestrator character merge them into one polished response.
 
 Please feel free to contribute or [open an issue](https://github.com/CATIOR/ST-MoE-Orchestrator/issues/new/choose)!
 
