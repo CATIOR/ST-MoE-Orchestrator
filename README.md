@@ -27,6 +27,9 @@ Expert 1  Expert 2   ← each generates a response (visible in chat)
 
 That's it. One button to enable, pick who's the Orchestrator, and you're set.
 
+## Keep it in your mind, please
+Drafts (posts of the characters, not the orchestrator) remain in the chat. You can delete them manually. This can be fixed in the future, but so far the solution has seemed too complicated to me. Therefore, in order not to break the logic of the chat and the interface as a whole, I preferred to stop at manual deletion.
+
 ## Why?
 
 Born from a simple dream: *what if you could take two AI drafts and merge them into one perfect post?*
