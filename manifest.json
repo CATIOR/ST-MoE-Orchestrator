@@ -1,0 +1,10 @@
+{
+    "display_name": "MoE Orchestrator",
+    "name": "SillyTavern MoE Orchestrator",
+    "description": "True Mixture of Experts Architecture: Runs sequential API prompts to experts and merges them via an Orchestrator.",
+    "version": "1.0.2",
+    "author": "CATIOR",
+    "js": "index.js",
+    "css": "style.css",
+    "minSillyTavernVersion": "1.10.0"
+}

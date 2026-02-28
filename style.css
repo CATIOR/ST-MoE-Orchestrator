@@ -1,0 +1,32 @@
+.moe-settings {
+    padding: 10px;
+}
+
+.moe-settings .moe-option {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.moe-settings label {
+    font-weight: bold;
+}
+
+.moe-info {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+#moe_orchestrator_select {
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    background: var(--SmartThemeBlurTintColor);
+    color: var(--SmartThemeBodyColor);
+    border: 1px solid var(--SmartThemeBorderColor);
+    border-radius: 4px;
+}
