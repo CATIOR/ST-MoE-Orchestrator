@@ -2,7 +2,9 @@
 
 **Mixture of Experts for your group chats.** Get two (or more) AI drafts, then let an Orchestrator character merge them into one polished response.
 
-> Vibe-coded with Claude Opus ✨
+Please feel free to contribute or [open an issue](https://github.com/CATIOR/ST-MoE-Orchestrator/issues/new/choose)!
+
+> Vibe-coded with Claude Opus ✨ (yeaaah)
 
 ## How It Works
 
@@ -20,8 +22,8 @@ Expert 1  Expert 2   ← each generates a response (visible in chat)
 ```
 
 1. You send a message.
-2. The extension triggers each **Expert** in the group one by one. Their responses appear in the chat so you can see every draft.
-3. After all Experts have spoken, the **Orchestrator** character receives a merge instruction and writes the final, unified response.
+2. The extension triggers each "**Expert**" (Character) in the group one by one. Their responses appear in the chat so you can see every draft.
+3. After all Experts have spoken, the "**Orchestrator**" (Narrator) character receives a merge instruction and writes the final, unified response.
 
 That's it. One button to enable, pick who's the Orchestrator, and you're set.
 
@@ -29,11 +31,11 @@ That's it. One button to enable, pick who's the Orchestrator, and you're set.
 
 Born from a simple dream: *what if you could take two AI drafts and merge them into one perfect post?*
 
-If you write third-person RP with a narrator who controls all characters at once, this gives you the best of both worlds — one model's creativity, another model's consistency, combined into a single polished output. The Orchestrator resolves contradictions, keeps the tone, and delivers a post that neither model could produce alone.
+If you write third-person RP with a narrator who controls all characters at once, this gives you the best of both worlds — one model's creativity, another model's consistency, combined into a single polished output. The Orchestrator resolves contradictions, keeps the tone, and delivers a post that neither model could produce alone. Or maybe you can use it to merge drafts into a final good post, maybe.
 
 ## Works great with st-multi-model-chat
 
-This extension was designed to pair with [st-multi-model-chat](https://github.com/Punikki/st-multi-model-chat). Assign different AI models (Gemini, Claude, GPT, local models, etc.) to different characters, and MoE Orchestrator will chain their outputs automatically. That's the real power — combining the **strengths of different models** into one response.
+This extension was designed to pair with [st-multi-model-chat](https://github.com/CATIOR/st-multi-model-chat). Assign different AI models (Gemini, Claude, GPT, local models, etc.) to different characters, and MoE Orchestrator will chain their outputs automatically. That's the real power — combining the **strengths of different models** into one response. But it's optional.
 
 ## Requirements
 
@@ -67,14 +69,14 @@ This extension was designed to pair with [st-multi-model-chat](https://github.co
 2. Expand **MoE Orchestrator**.
 3. Check **Enable MoE Sequence**.
 4. Select the **Orchestrator Character** from the dropdown (everyone else in the group becomes an Expert).
-5. *(Optional)* Customize the merge prompt — this is the instruction the Orchestrator sees before writing its response.
+5. *(Optional, but it's important)* Customize the merge prompt — this is the instruction the Orchestrator sees before writing its response. But you can disable it and set up an Orchestrator's character card instead!
 
 ## Tips
 
-- The default merge prompt works well out of the box, but feel free to tailor it to your writing style.
-- Put your strongest / most expensive model on the Orchestrator — it does the heavy lifting.
+- The default merge prompt works well out of the box, but feel free to tailor it to your writing style and even disable it to use only a character card!
+- Consider putting your strongest / most expensive model on the Orchestrator — it does the heavy lifting.
 - Experts can be cheap or fast models; they just provide raw material.
-- The Orchestrator's own character card (system prompt, personality, etc.) still applies on top of the merge instruction.
+- **The Orchestrator's own character card** (system prompt, personality, etc.) still applies on top of the merge instruction.
 
 ## License
 
@@ -83,3 +85,4 @@ MIT — do whatever you want with it.
 ## Credits
 
 Made by **CATIOR** — vibe-coded with Claude Opus.
+Thanks to Silly Tavern's team.
