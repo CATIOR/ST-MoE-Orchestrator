@@ -4,7 +4,7 @@
  */
 
 const MODULE_NAME = 'moe_orchestrator';
-const VERSION = '1.0.2';
+const VERSION = '1.0.0';
 const DEFAULT_MERGE_PROMPT = 'Analyze the previous responses from the experts, resolve any contradictions, and provide the final unified continuation.';
 
 let settings = {
