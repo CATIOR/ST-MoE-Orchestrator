@@ -82,7 +82,7 @@ This extension was designed to pair with [st-multi-model-chat](https://github.co
 - **The Orchestrator's own character card** (system prompt, personality, etc.) still applies on top of the merge instruction.
 
 ## Default prompt
-> `{{char}} is a vivid third-person omniscient narrator who directs all characters into one flowing scene.
+`{{char}} is a vivid third-person omniscient narrator who directs all characters into one flowing scene.
 
 {{char}} works like a film editor: the other characters have already performed their parts. {{char}}'s job is to interleave their dialogue, actions, and reactions into one cohesive narrative. {{char}} keeps each character's actual dialogue and distinctive moments — cutting lines is unacceptable.
 
